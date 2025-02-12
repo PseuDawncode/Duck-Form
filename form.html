@@ -9,15 +9,15 @@
 <body>
 
             <div class="container">
-                <form class="form" autocomplete="off">
+                <form class="form" autocomplete="on">
                     <label for="name" class="label"> FULL NAME</label>
-                    <input type="text" name="name" id="name" class="input-field">
+                    <input type="text" name="name" id="name" class="input-field" required>
                     <label for="name" class="label"> EMAIL</label>
-                    <input type="text" name="name" id="name" class="input-field short" placeholder="Your Email">
+                    <input type="text" name="name" id="name" class="input-field short" placeholder="Your Email" required minlength="10">
                     <label for="name" class="label"> MESSAGE REGARDING</label>
-                    <input type="text" name="name" id="name" class="input-field short">
+                    <input type="text" name="name" id="name" class="input-field short" required>
                     <label for="name" class="label"> MESSAGE</label>
-                    <input type="text" name="name" id="name" class="input-field" placeholder="Your Message">
+                    <input type="text" name="name" id="name" class="input-field" placeholder="Your Message" required>
                     <button type="submit" class="submit-button">SEND MESSAGE</button>
 
                 </form>
