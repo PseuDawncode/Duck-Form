@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9DBEBB;
+}
+
+.container {
+    width: 935px;
+    height: 588px;
+    background: linear-gradient(to right, #BE0909 65%, #FFB039 50%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+
+.form {
+	box-sizing: border-box;
+	max-width: 500px;
+	width: 100%;
+	min-height: 500px;
+    padding: 10px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 100;
+    align-items: center;
+}
+
+.label{
+    
+    display: block;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 4px 7px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.input-field {
+    border: none;
+    border-bottom: 2px solid #9DBEBB; 
+    background: transparent; 
+    font-size: 18px; 
+    padding: 5px 0; 
+    width: 400px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif; 
+  }
+
+.short{
+    width: 200px;
+    align-self: flex-start;
+}
+
+
+  .input-field::placeholder {
+	color: #FDFFFF;
+	opacity: 0.5;
+    letter-spacing: 5px;
+}
+  
+
+.submit-button {
+	width: 202px;
+	height: 48px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border-radius: 40px;
+	border: none;
+	background-color: #468189;
+	color: #FFFFFF;
+	box-shadow: 1px 1px 4px #000000;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    justify-items: center;
+}
+
+.submit-button:hover{
+    background-color: #FFB039;
+}
+
+.img{
+    object-fit: cover;
+}
+
+.img{
+    min-width: 600px;
+    margin-left: -20%;
+}
+
+
+.duck{
+    margin-top: 15%;
+    display: flex;
+    padding: 20px;
+    justify-items: flex-start;
+}
