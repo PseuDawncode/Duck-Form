@@ -38,7 +38,6 @@ body{
 }
 
 .label{
-    
     display: block;
     font-size: 18px;
     position: relative;
@@ -77,6 +76,31 @@ body{
 	opacity: 0.5;
     letter-spacing: 5px;
 }
+
+.textarea-container {
+    flex-direction: column;
+    display: flex;
+    gap: 5px; 
+  }
+
+  .textarea {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #9DBEBB;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    resize: none;
+  }
+
+  .textarea::placeholder {
+    color: #FDFFFF;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
   
 
 .submit-button {

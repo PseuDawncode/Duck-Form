@@ -20,8 +20,10 @@
                     <label for="subject" class="label"> MESSAGE REGARDING</label>
                     <input type="text" name="subject" id="subject" class="input-field short" required>
 
-                    <label for="message" class="label"> MESSAGE</label>
-                    <input type="text" name="message" id="message" class="input-field" placeholder="Your Message" required>
+                    <div class="textarea-container">
+                        <label for="message" class="label">MESSAGE</label>
+                        <textarea id="message" name="message" cols="50" rows="4" class="textarea" placeholder="Your message"></textarea>
+                    </div>
 
                     <button type="submit" class="submit-button">SEND MESSAGE</button>
 
